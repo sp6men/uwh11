@@ -1,0 +1,214 @@
+/* FOND D'ECRAN */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+} 
+body {
+  
+  background: linear-gradient(to left, #3a6186 30%, #89253e 69%);
+}
+#scene {
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.uwh {
+    
+    font-family: 'Gloria Hallelujah', cursive;
+    color: black;
+}
+.uwh2 {
+    
+    font-family: 'Gloria Hallelujah', cursive;
+    color: beige;
+    opacity: 0.8;
+}
+.liste_1 {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.liste_1, .liste_2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: blurIntro 3s;
+          animation: blurIntro 3s;
+}
+.liste_1, .liste_2,  .liste_3 {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  
+}
+
+@-webkit-keyframes blurIntro {
+  0% {
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+
+@keyframes blurIntro {
+  0% {
+    -webkit-filter: blur(500px);
+            filter: blur(500px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0.4;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 0.4;
+  }
+}
+ 
+.front, .liste_3:nth-child(1) { width: 120px; height: 120px; background: lightblue; top: 10%; left: 40%; -webkit-animation: blink 5s infinite 0.5s; animation: blink 5s infinite 0.5s;}
+.front, .liste_3:nth-child(2) { width: 110px; height: 110px; background: lightblue; top: 50%; left: 80%; -webkit-animation: blink 5s infinite 2s; animation: blink 5s infinite 2s;}
+.front, .liste_3:nth-child(3) { width: 80px; height: 80px; background: lightblue; top: 30%; left: 10%; -webkit-animation: blink 5s infinite 1s; animation: blink 5s infinite 1s;}
+
+.second, .liste_3:nth-child(1) { width: 70px; height: 70px; background: lightblue; top: 60%; left: 40%; -webkit-animation: blink 5s infinite 0.3s; animation: blink 5s infinite 0.3s;}
+.second, .liste_3:nth-child(2) { width: 60px; height: 60px; background: lightblue; top: 80%; left: 60%; -webkit-animation: blink 5s infinite 1.2s; animation: blink 5s infinite 1.2s;}
+.second, .liste_3:nth-child(3) { width: 55px; height: 55px; background: lightblue; top: 90%; left: 20%; -webkit-animation: blink 5s infinite 1.4s; animation: blink 5s infinite 1.4s;}
+
+.third, .liste_3:nth-child(1) { width: 45px; height: 45px; background: lightblue; top: 25%; left: 18%; -webkit-animation: blink 5s infinite 0.8s; animation: blink 5s infinite 0.8s;}
+.third div:nth-child(2) { width: 60px; height: 60px; background: lightblue; top: 75%; left: 35%; -webkit-animation: blink 5s infinite 1.6s; animation: blink 5s infinite 1.6s;}
+.third div:nth-child(3) { width: 55px; height: 55px; background: lightblue; top: 10%; left: 80%; -webkit-animation: blink 5s infinite 1s; animation: blink 5s infinite 1s;}
+
+.forth, .liste_3:nth-child(1) { width: 60px; height: 60px; background: lightblue; top: 45%; left: 68%; -webkit-animation: blink 5s infinite 0.4s; animation: blink 5s infinite 0.4s;}
+.forth, .liste_3:nth-child(2) { width: 80px; height: 80px; background: lightblue; top: 77%; left: 25%; -webkit-animation: blink 5s infinite 0.9s; animation: blink 5s infinite 0.9s;}
+.forth, .liste_3:nth-child(3) { width: 90px; height: 90px; background: lightblue; top: 94%; left: 40%; -webkit-animation: blink 5s infinite 1.6s; animation: blink 5s infinite 1.6s;}
+
+.fifth, .liste_3:nth-child(1) { width: 30px; height: 30px; background: lightblue; top: 90%; left: 28%;-webkit-animation: blink 5s infinite 0.4s;animation: blink 5s infinite 0.4s;}
+.fifth, .liste_3:nth-child(2) { width: 20px; height: 20px; background: lightblue; top: 57%; left: 55%; -webkit-animation: blink 5s infinite 0.9s; animation: blink 5s infinite 0.9s;}
+.fifth, .liste_3:nth-child(3) { width: 35px; height: 35px; background: lightblue; top: 24%; left: 70%; -webkit-animation: blink 5s infinite 0.2s; animation: blink 5s infinite 0.2s;}
+.fifth, .liste_3:nth-child(4) { width: 35px; height: 35px; background: lightblue; top: 1%; left: 25%; -webkit-animation: blink 5s infinite 1s; animation: blink 5s infinite 1s;}
+.fifth, .liste_3:nth-child(5) { width: 35px; height: 35px; background: lightblue; top: 0%; left: 0%; -webkit-animation: blink 5s infinite 0.6s; animation: blink 5s infinite 0.6s;}
+
+
+/* FOND D'ECRAN */
+
+
+.carre {
+        
+     height: 100px;
+     width:100px;
+     background-color: ;
+     opacity: ;
+   /*  border:1px solid white;
+     border-radius: 4px; */
+    }
+
+
+.divseparation {
+    height: 90px;
+}
+
+.divseparationcote1 {
+    margin-top: 50px;
+    margin-right: -200px;
+}
+
+.divseparationcote {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#divbouton {
+	overflow: hidden;
+	height: 0;
+	margin-top: 10px;
+    transition: height .3s ease;
+    
+}
+
+#divboutona {
+	overflow: hidden;
+	height: 0;
+	margin-top: -415px;
+    margin-left: 245px;
+    transition: height .4s ease;
+}
+
+#divboutonb {
+	overflow: hidden;
+	height: 0;
+	margin-top: -415px;
+    margin-left: 245px;
+    transition: height .4s ease;
+}
+
+#divboutonc {
+	overflow: hidden;
+	height: 0;
+	margin-top: -415px;
+    margin-left: 245px;
+    transition: height .4s ease;
+}
+
+#divboutond {
+	overflow: hidden;
+	height: 0;
+	margin-top: -415px;
+    margin-left: 245px;
+    transition: height .4s ease;
+}
+
+#divboutone {
+	overflow: hidden;
+	height: 0;
+	margin-top: -415px;
+    margin-left: 245px;
+    transition: height .4s ease;
+}
+
+#divboutonf {
+	overflow: hidden;
+	height: 0;
+	margin-top: -415px;
+    margin-left: 245px;
+    transition: height .4s ease;
+}
+#divboutong {
+	overflow: hidden;
+	height: 0;
+	margin-top: -415px;
+    margin-left: 245px;
+    transition: height .4s ease;
+}
+
+#divboutonh {
+	overflow: hidden;
+	height: 0;
+	margin-top: -415px;
+    margin-left: 245px;
+    transition: height .4s ease;
+}
+
+#divboutoni {
+	overflow: hidden;
+	height: 0;
+	margin-top: -415px;
+    margin-left: 245px;
+    transition: height .4s ease;
+}
+
+
+
+
+
+
